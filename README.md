@@ -57,7 +57,7 @@ post :create, {customer: cliches(:customer)}
 
 ## Rails Goodies
 There are a couple of things that cliches provide to Rails users to
-keep their syntax sugar-levels at acceptable levels.
+keep their syntax sugar-levels adequately high.
  
 There is a shortcut for building models:
 
