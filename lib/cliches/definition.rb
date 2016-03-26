@@ -24,7 +24,7 @@ module Cliches
 
     # Finds the definition with a given +name+. Returns +nil+ if it there is none.
     def self.find(name)
-      definitions[name]
+      definitions[name.to_sym]
     end
 
     # Registers a definition. This will override any existing definition with the same name.
