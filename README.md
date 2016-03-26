@@ -1,8 +1,8 @@
-# Cliches: Easily set up attributes for your Rails tests.
+# Cliches: Easily set up attributes for your tests.
 
 ## What is this?
 
-Cliches solves the endless problem of having to pass large hases of 
+Cliches solves the endless problem of having to pass large hashes of 
 parameters to different methods in your tests. This is a problem that
 constantly appears when writing tests, a problem that people either 
 solve at the wrong level or don't solve at all.
@@ -81,10 +81,10 @@ There is a shortcut for building models:
 # This looks up cliches(:customer) and instantiates a model.
 Customer.cliche
  
-# This looks up cliches(:returning_customer) and instantiates
+# This looks up cliches(:returning_customer) and instantiates a model
 Customer.cliche(:returning)
 
-# This looks does the same, but also saves the model
+# This does the same, but also saves the model
 Customer.cliche!(:returning)
 ```
 
