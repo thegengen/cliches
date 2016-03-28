@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Cliches::VERSION
   spec.authors       = ["Eugen Minciu"]
   spec.email         = ["eugen@gengen.io"]
-  spec.summary       = "Easily set up attributes for your tests."
+  spec.summary       = "Rid your tests of boring, repetitive hashes."
   spec.homepage      = ""
   spec.license       = "MIT"
 

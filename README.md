@@ -1,4 +1,4 @@
-# Cliches: Easily set up attributes for your tests.
+# Cliches: Rid your tests of boring, repetitive hashes.
 
 ## What is this?
 
